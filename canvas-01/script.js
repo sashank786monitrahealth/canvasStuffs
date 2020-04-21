@@ -48,5 +48,7 @@ function penDown(e){
 }
 
 function saveFile(){
+    let image = canvas.toDataURL();
 
+    document.getElementById('myImage').src=image;
 }
