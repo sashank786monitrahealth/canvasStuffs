@@ -34,8 +34,10 @@ function draw(){
   console.log('move');
 }
 
-function penDown(){
+function penDown(e){
    console.log('down');
+   [pen.x,pen.y]=[e.offsetX,e.offsetY];
+   console.log(pen);
 }
 
 function saveFile(){
