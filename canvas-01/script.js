@@ -49,6 +49,14 @@ function penDown(e){
 
 function saveFile(){
     let image = canvas.toDataURL();
-
+    let a = document.createElement('a');
+    a.setAttribute('download','image.png');
+    a.setAttribute('href',canvas.toDataURL('image/png')
+                                .replace("image/png","image/octet-stream")
+                  );
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
     document.getElementById('myImage').src=image;
 }
