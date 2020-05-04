@@ -26,4 +26,8 @@ ctx.lineWidth = "5";
 ctx.stroke();
 
 // clearRect is used to clear pixels
-//ctx.clearRect(0,50,640,480);
+ctx.clearRect(0,50,640,480);
+
+ctx.moveTo(200,50);
+ctx.lineTo(300,75);
+ctx.stroke();
