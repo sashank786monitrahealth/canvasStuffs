@@ -45,3 +45,14 @@ ctx.moveTo(200,50);
 ctx.lineTo(300,175);
 ctx.stroke();
 ctx.closePath();
+
+
+
+//////////////////////////////
+
+
+
+ctx.beginPath();
+
+ctx.arc(320,240,50,0,2*Math.PI);
+ctx.stroke();
