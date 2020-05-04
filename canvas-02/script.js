@@ -54,6 +54,6 @@ ctx.closePath();
 
 ctx.beginPath();
 
-ctx.arc(320,240,50,0,2*Math.PI);
+ctx.arc(320,240,100,0,1*Math.PI);
 ctx.fill();
 ctx.stroke();
