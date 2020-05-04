@@ -1,6 +1,8 @@
 var canvas = document.getElementById("myCan");
 var ctx = canvas.getContext("2d");
 
+ctx.save();
+
 // short hand to create rect
 ctx.fillStyle="yellow";
 ctx.strokeStyle = "lime";
@@ -27,8 +29,14 @@ ctx.lineWidth = "5";
 ctx.stroke();
 
 ctx.closePath();
+
+
+
 // clearRect is used to clear pixels
 ctx.clearRect(0,50,640,480);
+
+ctx.restore();
+
 ctx.beginPath();
 ctx.moveTo(200,50);
 ctx.lineTo(300,75);
