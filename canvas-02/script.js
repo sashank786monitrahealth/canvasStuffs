@@ -12,6 +12,13 @@ ctx.strokeRect(100,250,100,100);
 
 // long form to create rect
 ctx.rect(300,100,100,100);
+ctx.shadowColor = "black";
+ctx.shadowOffsetX = 20;
+ctx.shadowOffsetY = 20;
+ctx.shadowBlur=30;
+
+
+
 ctx.fillStyle="blue";
 ctx.fill();
 ctx.strokeStyle = "lime";
