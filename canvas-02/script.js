@@ -12,3 +12,6 @@ ctx.fill();
 ctx.strokeStyle = "lime";
 ctx.lineWidth = "5";
 ctx.stroke();
+
+// clearRect is used to clear pixels
+ctx.clearRect(0,50,500,100);
