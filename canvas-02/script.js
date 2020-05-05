@@ -60,6 +60,14 @@ ctx.stroke();
 ctx.closePath();
 
 
+ctx.beginPath();
+ctx.moveTo(50,350)
+ctx.bezierCurveTo(50,100,300,100,300,350);
+
+ctx.stroke();
+ctx.closePath();
+
+
 
 ctx.beginPath();
 ctx.arc(320,240,100,(3*Math.PI/4),2*Math.PI);
