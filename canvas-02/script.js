@@ -53,6 +53,7 @@ ctx.closePath();
 
 
 ctx.beginPath();
+ctx.strokeStyle = "violet";
 ctx.moveTo(50,50)
 ctx.quadraticCurveTo(50,100,300,50);
 
@@ -61,6 +62,7 @@ ctx.closePath();
 
 
 ctx.beginPath();
+ctx.strokeStyle = "dodgerblue";
 ctx.moveTo(50,350)
 ctx.bezierCurveTo(50,100,300,100,300,350);
 
