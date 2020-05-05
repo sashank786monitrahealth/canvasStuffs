@@ -11,3 +11,13 @@ ctx.strokeStyle ="dodgerblue"
 ctx.textAlign ="center";
 ctx.strokeText("second Text",150,100);
 
+ctx.beginPath();
+for(var x=0;x<10;x++){
+   ctx.moveTo(50 + (x*50),250);
+   ctx.lineTo(70+ (x*50),250);
+
+}
+
+ctx.stroke();
+
+
