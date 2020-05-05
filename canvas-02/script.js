@@ -53,7 +53,16 @@ ctx.closePath();
 
 
 ctx.beginPath();
+ctx.moveTo(50,50)
+ctx.quadraticCurveTo(50,100,300,50);
 
+ctx.stroke();
+ctx.closePath();
+
+
+
+ctx.beginPath();
 ctx.arc(320,240,100,(3*Math.PI/4),2*Math.PI);
 ctx.fill();
 ctx.stroke(); 
+ctx.closePath();
